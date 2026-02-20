@@ -1,0 +1,30 @@
+.product-page {
+  display: flex;
+  gap: 50px;
+  padding: 60px;
+  align-items: center;
+}
+
+.product-page img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.add-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #005fd1;
+}
